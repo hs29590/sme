@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import cv2
 import urllib2
 import numpy as np
@@ -30,4 +31,3 @@ if a!=-1 and b!=-1:
     cv2.imwrite('test.jpg',i);
     cv2.imshow(host,i)
     cv2.waitKey(0);
-exit()
